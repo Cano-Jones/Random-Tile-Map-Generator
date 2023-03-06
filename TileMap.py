@@ -46,8 +46,8 @@ import os
 
 pygame.init() #Necessary for the use of the pygame library
 tile_size=16 #Size of the elementary tile
-Rows=80 #Number of tiles for each column
-Columns=80 #Number of tiles for each row
+Rows=60 #Number of tiles for each column
+Columns=60 #Number of tiles for each row
 screen_width= tile_size*Rows #Width of the final map
 screen_height=tile_size*Columns #Height of the final map
 screen=pygame.display.set_mode((screen_width, screen_height)) #Pygame definition of the map
@@ -201,7 +201,7 @@ def WorldData(Rules):
     #Next, the program checks if a tile is a 'lonely' tile (it does not touch anothe tile equal to it). If thats the case, it is changed
     for i in range(1,Columns-1):
         for j in range(1,Rows-1):
-            if (world[i][j-1]==world[i+1][j]) and (world[i+1][j]==world[i][j+1]) and (world[i][j+1]==world[i-1][j]): world[i][j]=world[i][j+1]
+            if world[i][j] not in [world[i][j-1],world[i+1][j],world[i][j+1],world[i-1][j]]: world[i][j]=world[i-1][j]
             
     return world #The world matrix is returned
     
