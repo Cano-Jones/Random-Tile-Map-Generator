@@ -29,7 +29,7 @@ The meaning of the # variables is
 meaning that a specific tile can be placed at the upper-right, right, lower-right or below the >Tile. It is only necesary to specify this rules, as the program
 starts placing tiles from the top left, continues on that column and passes to the next.
 
-After placing at random the tiles, the program erases 'lonely' tiles (tiles with no direct contact with a tile equal to it), so the result looks cleaner.
+After placing at random the tiles, the program can erase 'lonely' tiles (tiles with no direct contact with a tile equal to it), so the result looks cleaner.
 The final tile map is saved as 'Map.png'
 
 :Author: Cano Jones, Alejandro
@@ -198,11 +198,13 @@ def WorldData(Rules):
                     if (aux in set_pos_W['E']) and (aux in set_pos_N['S']) and (aux in set_pos_NW['SE']) and (aux in set_pos_SW['NE']):
                         world[i][j]=aux
                         break
+    """
     #Next, the program checks if a tile is a 'lonely' tile (it does not touch anothe tile equal to it). If thats the case, it is changed
     for i in range(1,Columns-1):
         for j in range(1,Rows-1):
             if world[i][j] not in [world[i][j-1],world[i+1][j],world[i][j+1],world[i-1][j]]: world[i][j]=world[i-1][j]
-            
+    """
+    
     return world #The world matrix is returned
     
 
