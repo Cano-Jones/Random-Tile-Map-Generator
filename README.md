@@ -27,10 +27,9 @@ Using a set of .png images (tiles) storaged in a directory named 'TileSet' and a
        <td>
             <img align="left" src="OutputExamples/MapExamples.gif" width="260"/>
       </td>
-     
-     
-    
-
+> >Tile1
+> #
+> >Tile2
 
 
 
