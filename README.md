@@ -8,7 +8,7 @@ Using a set of .png images (tiles) storaged in a directory named 'TileSet' and a
 
 <table border="0">
  <tr>
-    <td>Lorem ipsum ...</td>
+    <td>Different Tile sets and/or Map Rules gives different results</td>
     <td>
       <p align="center">
         <img src="OutputExamples/MoreExamples.gif" width="200"/>
