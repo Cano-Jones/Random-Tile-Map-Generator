@@ -25,6 +25,8 @@ A general 'MapRules.txt' file will look like this:
 ```
 Where 'Tile1', 'Tile2', 'Tile3', etc are the tile images names (TileX.png) on the TileSet directore. The syntax is as follows: For each tile name, one must write `>Tilename`, and bellow it, 4 subsections preceded by '#'. Each subsection corresponds to one cardinal direction (NE -> North East). After naming the direction, one must list the tiles that can be placed in that direction over the main Tile. In the given example, bellow Tile1 (#S) only the TileY and TileZ tiles can be placed, but not the TileA tile. Only NE, E, SE & S directions are needed.
 
+Different TileSets (and rules) will generate different results:
+
 <div align="center">
     <table >
      <tr>
@@ -48,7 +50,11 @@ Where 'Tile1', 'Tile2', 'Tile3', etc are the tile images names (TileX.png) on th
       </td>
       </table>
   </div>
-Prueba, esto  es una prueba
+
+Needed libraries:
+- random
+- pygame
+- os
        
 
 
