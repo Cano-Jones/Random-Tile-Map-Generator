@@ -8,10 +8,6 @@ Using a set of .png images (tiles) storaged in a directory named 'TileSet' and a
 
 <table border="0">
  <tr>
-    <td><b style="font-size:30px">Title</b></td>
-    <td><b style="font-size:30px">Title 2</b></td>
- </tr>
- <tr>
     <td>Lorem ipsum ...</td>
     <td>
       <p align="center">
