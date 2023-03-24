@@ -13,12 +13,12 @@ Using a set of .png images (tiles) storaged in a directory named 'TileSet' and a
         <td><b>Results</b></td>
      </tr>
      <tr>
-       <td><p align="center">
+       <td>
             <img align="left" src="TileSet/TileSet_2.png" width="260"/>
-      </p><td>
-       <td><p align="center">
+      <td>
+       <td>
             <img align="left" src="OutputExamples/MoreExamples.gif" width="260"/>
-      </p><td>
+      <td>
      </tr>
     </table>
     </div>
