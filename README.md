@@ -47,6 +47,8 @@ Where 'Tile1', 'Tile2', 'Tile3', etc are the tile images names (TileX.png) on th
             <img align="left" src="OutputExamples/MapExamples.gif" width="260"/>
       </td>
        
+Prueba, esto  es una prueba
+       
 
 
 
