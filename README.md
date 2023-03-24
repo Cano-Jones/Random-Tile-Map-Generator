@@ -20,6 +20,15 @@ Using a set of .png images (tiles) storaged in a directory named 'TileSet' and a
             <img align="left" src="OutputExamples/MoreExamples.gif" width="260"/>
       </td>
      </tr>
+     <tr>
+     <td>
+            <img align="left" src="TileSet/TileSet.png" width="260"/>
+      </td>
+       <td>
+            <img align="left" src="OutputExamples/MapExamples.gif" width="260"/>
+      </td>
+     
+     </tr>
     </table>
     </div>
     
